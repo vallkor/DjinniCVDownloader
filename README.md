@@ -32,13 +32,13 @@ pip install pycookiecheat
 
 **Always wrap the URL in quotes** to prevent shell errors with `?` characters.
 
-Download all CVs from your inbox:
+Download all CVs from your inbox (be carefull, it could be a lot of CV's):
 
 ```bash
 python3 download.py "https://djinni.co/home/inbox/"
 ```
 
-Download CVs for a specific job posting:
+Download CVs for a specific job posting (most common usage):
 
 ```bash
 python3 download.py "https://djinni.co/home/inbox/?job=12345"
